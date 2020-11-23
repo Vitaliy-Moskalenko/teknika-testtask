@@ -1,0 +1,76 @@
+/* Below line is write to use Google font online */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+
+div#main {
+	text-align:center;
+	
+	margin:0 auto;
+	font-family:'Ubuntu',sans-serif
+}
+div#form-container {
+	text-align:center;
+	min-width: 150px;
+	max-width: 550px;
+	padding:25px 35px 25px 25px;
+	margin: 0 auto;
+	margin-top:20px;
+	box-shadow:0 0 15px;
+	border:1px solid #ccc;
+	border-radius:6px;
+}
+label {
+	float:left;
+	font-size:16px
+}
+input[type="text"],
+input[type="submit"],
+select {
+	width:100%;
+	margin-top:10px;
+	height:35px;
+	padding: 0;
+	margin-bottom:25px;
+	border:2px solid #2BC1F2
+}
+input[type="text"] {
+	width: calc(100% - 4px);
+}
+input[type="submit"] {	
+	padding: 15px 45px;
+	margin-top: 20px;
+	height: 50px;
+	background-color:#2BC1F2;
+	border:none;
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	cursor:pointer;
+	font-family:'Ubuntu',sans-serif
+}
+
+#form-values {
+	display: none;
+	width: calc(100% - 30px);
+	min-height: 110px;
+	padding: 15px;
+	border: 2px solid #ccc;	
+}
+.close {
+	float:right;
+	width: 70px;
+	height: 70px;
+	color: black;
+	font-size: 32px;
+	cursor: pointer;
+}
+.close:hover {
+	text-shadow: 2px 2px 2px #ccc;
+}
+
+
+
+
+
+
+
+
