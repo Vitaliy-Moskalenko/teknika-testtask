@@ -5,10 +5,7 @@ $(document).ready(function() {
 	$('<link/>', {rel: 'stylesheet', type: 'text/css', href: 'css/main.css'}).appendTo('head');
 	
 	// Include datetime picker
-	$("head").append($('<script type="text/javascript" src="js/jquery.datetimepicker.full.min.js"></script>'));
-
-	// Make a github repo
-	// Deploy on the test server
+	$('<script type="text/javascript" src="js/jquery.datetimepicker.full.min.js"></script>').appendTo('head');
 
 	// Create form element
 	var form = $('<form>');
